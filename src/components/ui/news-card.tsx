@@ -26,7 +26,7 @@ export default function NewsCard({
       href={
         {
           pathname: "/news/[id]",
-          params: { id, thumbnailUrl, title, author, publishDate, description },
+          params: { id, link, thumbnailUrl, title, author, publishDate, description },
         } as any
       }
       asChild

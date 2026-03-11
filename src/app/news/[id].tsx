@@ -1,4 +1,4 @@
-import NewDetailsScreen from "../../components/screens/new-details-screen";
+import NewDetailsScreen from "../../components/screens/news-details-screen";
 
 export default function NewsArticleScreen() {
   return <NewDetailsScreen />;
